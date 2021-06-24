@@ -24,12 +24,13 @@ public class Main {
                     System.out.print("Lütfen yapmak istediğiniz işlemi seçiniz : ");
                     select = input.nextInt();
                     switch (select) {
-                        case 1:
+                        case 1:{
                             System.out.print("Para miktarı : ");
                             int price = input.nextInt();
                             balance += price;
                             break;
-                        case 2:
+                        }
+                        case 2:{
                             System.out.print("Para miktarı : ");
                             int price = input.nextInt();
                             if (price > balance) {
@@ -38,6 +39,7 @@ public class Main {
                                 balance -= price;
                             }
                             break;
+                        }
                         case 3:
                             System.out.println("Bakiyeniz : " + balance);
                             break;
