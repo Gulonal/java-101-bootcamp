@@ -55,6 +55,7 @@ public class Main {
                         System.out.println("Hesabınız bloke olmuştur lütfen banka ile iletişime geçiniz.");
                     default:
                         System.out.println("Kalan Hakkınız : " + right);
+                        break;
                 }
             }
         }
